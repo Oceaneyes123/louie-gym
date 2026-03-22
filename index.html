@@ -1,197 +1,257 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="dark" lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KINETIC | Forge Your Limits</title>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@300..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonic Monolith</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;700;800&family=Inter:wght@400;500&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="topbar">
-        <div class="container topbar-inner">
-            <div class="brand">KINETIC</div>
-            <div class="topbar-links">
-                <a class="nav-link nav-link-active" href="#">Products</a>
-                <a class="nav-link" href="#">Why Us</a>
-                <a class="nav-link" href="#">Reviews</a>
-            </div>
-            <button class="btn btn-shop-now">Shop Now</button>
+  <nav class="top-nav">
+    <div class="container nav-inner">
+      <div class="brand">Sonic Monolith</div>
+      <div class="nav-links">
+        <a class="active" href="#">Features</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+      </div>
+      <button class="btn btn-nav">Pre-order</button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Professional Grade Audio</span>
+          <h1>Capture The <br><span>Invisible.</span></h1>
+          <p>
+            Engineering silence to amplify truth. The Monolith Series represents the absolute pinnacle
+            of acoustic precision for the modern studio.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-gold">Explore Series</button>
+            <button class="btn btn-ghost">
+              <span class="material-symbols-outlined">play_circle</span>
+              Listen to Samples
+            </button>
+          </div>
         </div>
-    </nav>
-
-    <main>
-        <section class="hero-section">
-            <div class="hero-bg-wrap">
-                <img class="hero-bg-image" alt="Premium Gym Equipment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB743h9cl5sPlCyr9EIvVrkLx70s1nTPcfqSVn0it-4DkSbgtDCYSTFZtT4yM7PJsMKm7WaAo4dU2Wx0ZKRU0xmyPLXM61dH3sAmaEAvbm_pOkJolxAaj3MCSIkMoDT-xT8yixILTTUNvnOfdoKivMas1Srh3AiTguBL7CGHbZvlmQNXcdzjdsrtm1lMLn6OQSrm32nQBmTwEKBuPQ3-KolL_7i7mXYiyrjKVrI-Woe27PJFBNb9xaLpdO5nqzSIXzh8reXDtWvXO0J">
-                <div class="hero-bg-overlay"></div>
-            </div>
-            <div class="container hero-content-grid">
-                <div>
-                    <h1 class="hero-title">FORGE YOUR <span class="kinetic-gradient-text">LIMITS</span></h1>
-                    <p class="hero-text">Engineered for elite performance. High-tech aesthetics meet industrial durability for the modern athlete.</p>
-                    <div class="hero-actions">
-                        <button class="btn btn-primary kinetic-glow">Shop All Gear</button>
-                        <button class="btn btn-secondary">View Catalog</button>
-                    </div>
-                </div>
-                <div class="hero-image-wrap">
-                    <div class="hero-image-glow"></div>
-                    <img class="hero-side-image" alt="Elite Dumbbells" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVKUa-iAJV7iZCdNhqG1nHqhSf-upYoz2A0NwAfYM5AWKJ4TEicPlsUMRnlaJopD3o2psQb5-ZtU_M913xL4bllXFSoSH_fewmiBH4DkMq-lD-fdrj1_q8v0QIPGaLGPB7LFYVpdtHhIm5WYZ7XnDzQXS1ZUJyy6TuODbJetz2nXoBeWnBhzShh626J34O9sUeW3dWM62LW_o8ALQLf2bAZIn3V4yaauGDphT_aHpo98RWgVRCZ17C_LP0yR--qEMZnjrLhWkTLc_2">
-                </div>
-            </div>
-        </section>
-
-        <section class="products-section">
-            <div class="container">
-                <div class="section-header">
-                    <div>
-                        <span class="eyebrow">The Collection</span>
-                        <h2 class="section-title">FEATURED ESSENTIALS</h2>
-                    </div>
-                    <a class="view-all-link" href="#">View All <span class="material-symbols-outlined">arrow_forward</span></a>
-                </div>
-
-                <div class="product-grid">
-                    <article class="product-card">
-                        <div class="product-image-box">
-                            <img alt="KINETIC Dumbbells" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2lNZ3LStMQkHsQ35OvyfTZtnWDWhrsR-LBQ6ZCMP5jMY3oubN6gKPGK3GrgcSHQ7OXleklZrxyGGB_7-jj1-ZVHQM97u4FGe2_vWIKfrEwrHNpKl6nbHqpMY8ZYVawFXD2dQMelnOV5M4iOT1BGYKWGv1JM-cxuKXaMRT7fFc2JYaSR6FfjrfCGR6Or1HFjzsZ7nFLOVehbEA8T3onT0yvWIZOQOsOM4jSXW_gdomF6Er7JI8izvwCX18vclTfEKnse7DUl92N1Gq">
-                        </div>
-                        <div class="product-row">
-                            <h3 class="product-name">PRO-TECH DUMBBELLS</h3>
-                            <span class="product-price">$299</span>
-                        </div>
-                        <p class="product-copy">Precision diamond-knurled grip with impact-resistant coating.</p>
-                        <button class="btn btn-product"><span class="material-symbols-outlined">add</span>Quick Add</button>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="product-image-box">
-                            <img alt="KINETIC Kettlebell" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXE0SX-FDQUbpitS8zIAzGPP4z8sFK5DEpYdjrC45PsHj539pfrNuO_sRXcq16QmBbH7g8qaM8dSD4iy6c8kOIBI4cZzXxMoPuBuBt1E5B13MkwkVK44hClO98K-OfpExbotNWqvaPiKEEUx79Pmpk3tRuOiateHlUmzPk7D3bVzs26cOV6u5K3XlAuIUlzwF1DztWUwNoD8Nty3YB_G-pqJRl_j6MLY8dif9HMnWi7AYRF02xw8A-vQdfTpkCAow-KZ6Frot5wQof">
-                        </div>
-                        <div class="product-row">
-                            <h3 class="product-name">CORE KETTLEBELLS</h3>
-                            <span class="product-price">$145</span>
-                        </div>
-                        <p class="product-copy">Cast iron core with a seamless finish for ergonomic ballistic movements.</p>
-                        <button class="btn btn-product"><span class="material-symbols-outlined">add</span>Quick Add</button>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="product-image-box">
-                            <img alt="KINETIC Weight Bench" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqiU234axpv6SZFQALQ4naTt6X9GXjrj_bKFjFPI6Ar82Xq4jwMQcOO7K0IfIG_x7SNGiPsnOsOcJ4G2zjwAKsymx7jddMQjhUl37RkMTWlJx3RGtVzaF5VELNcGsMIGwIBKacsUTxytFiRivCjr2_RUgZyR6QSRiYVTeyc4jxbgXAuD-0cuk0nR-_zJDQHD3g2SeqwFKlTfpm8wNEMBldv1dfTGmgWzd6CrcQXobpmHM_OBtfxisIoWuVNLWmlvznnM6u7khXnEFd">
-                        </div>
-                        <div class="product-row">
-                            <h3 class="product-name">APEX WEIGHT BENCH</h3>
-                            <span class="product-price">$580</span>
-                        </div>
-                        <p class="product-copy">Commercial-grade steel frame with high-density EVA foam padding.</p>
-                        <button class="btn btn-product"><span class="material-symbols-outlined">add</span>Quick Add</button>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="advantage-section">
-            <div class="advantage-glow"></div>
-            <div class="container advantage-content">
-                <div class="advantage-title-wrap">
-                    <h2 class="section-title section-title-large">THE KINETIC ADVANTAGE</h2>
-                </div>
-                <div class="advantage-grid">
-                    <article class="advantage-item">
-                        <div class="advantage-icon-wrap"><span class="material-symbols-outlined">shield</span></div>
-                        <h3>Durability</h3>
-                        <p>Built with industrial-grade materials meant to withstand the most intense training environments for decades.</p>
-                    </article>
-                    <article class="advantage-item">
-                        <div class="advantage-icon-wrap"><span class="material-symbols-outlined">architecture</span></div>
-                        <h3>Precision Engineering</h3>
-                        <p>Every knurl and angle is calculated to maximize biomechanical efficiency and grip stability.</p>
-                    </article>
-                    <article class="advantage-item">
-                        <div class="advantage-icon-wrap"><span class="material-symbols-outlined">local_shipping</span></div>
-                        <h3>Free Shipping</h3>
-                        <p>Elite gear should not be gated by heavy shipping costs. We deliver nationwide at no extra charge.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="reviews-section">
-            <div class="container">
-                <h2 class="reviews-heading">Trusted by Professionals</h2>
-                <div class="reviews-grid">
-                    <article class="review-card">
-                        <div class="stars">
-                            <span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span>
-                        </div>
-                        <p class="review-copy">"The knurling on the dumbbells is the best I've ever felt. It stays sticky even with heavy sweat. KINETIC is the real deal."</p>
-                        <div class="review-user">
-                            <div class="avatar"><img alt="Customer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMV0Q1htVQXu7o254o6oek-efy-yTvvB3JtkjA9NYQ6RgkjXhZodXZc3bmj0srcNvpbpUmYxL8T_vJNpbm3ztLqfuQ6wuwW7pgG2FHr2nCkASE4PGkzXCicGkpZYY6bjyHazTlLsx4cQYYW6hNq5n8Uocfjxbkq0HyJ2au0ke-DAKALHKwu1ukd7b52oCxhBwyrHSxif6KoEqjCh3f96fyt2TYl1c6U68x1IUZiv8Dp7sGBx6Php0mqP8tJ7jaSVB9C7CNGWD72aCl"></div>
-                            <div>
-                                <h4>Marcus Chen</h4>
-                                <span>IFBB Pro Athlete</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="review-card">
-                        <div class="stars">
-                            <span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span>
-                        </div>
-                        <p class="review-copy">"Finally, a brand that cares as much about the aesthetic as they do the function. My home gym looks like a tech hub now."</p>
-                        <div class="review-user">
-                            <div class="avatar"><img alt="Customer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBy3dFcWyw9jWHiLtDeqMVCLJdIaG_t_4RUInXmuomvnC--N_2UKT8l6YE2eA8rYCOVi3NsqAcu0C2zysfMQKO9fPlthsuA7rUHkjvw-ktIovkgWl2kzrXJL8JXgrsOejClf1Q8JzsvejPR4sb8JQkEIVb8JhR_cunomdaUAWXMx0jq9609zm0ZdbQ2E_wgJjufnAa_Bw__J_69cNpUXq5WUwe7Iv0SEQE57pfFOQ4gwRI2onEkBh55IpdjN-IeWhLgxh2isP3pDy4y"></div>
-                            <div>
-                                <h4>Elena Rodriguez</h4>
-                                <span>Studio Owner</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="review-card">
-                        <div class="stars">
-                            <span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span><span class="material-symbols-outlined">star</span>
-                        </div>
-                        <p class="review-copy">"The durability is insane. We've been throwing these around our facility for 6 months and they still look brand new."</p>
-                        <div class="review-user">
-                            <div class="avatar"><img alt="Customer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfqdQj44px1rumZ6NzN4GmpJTnaFfugf2QAurxgYm4i0Xq8X5xCC31-AOTM9ndHaYqTZUxO4VYps6a9OkXX7qj7JtkuW09jwxNkLmguuyzY0ylm4jHcM8v4Bzyt_DzXj3CDltv46gkmwBLXJk5_LAQ-f4SZKuNFQQJnBCfhsgjtJfmiHDJFcOr697-y36p-fA2RRVUA9yCx7wHQqe4tuLjOcgwtDlSTBM8Y0IUEwd4Surw0TbWyF2uc98BNHJmaap8jG07Xdx8-F_n"></div>
-                            <div>
-                                <h4>David Vance</h4>
-                                <span>Head Strength Coach</span>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="cta-section">
-            <div class="cta-radial"></div>
-            <div class="container cta-content">
-                <h2 class="cta-title">JOIN THE MOVEMENT</h2>
-                <p class="cta-copy">Do not settle for average. Upgrade your workspace and transcend your training potential with KINETIC depth.</p>
-                <div class="cta-actions">
-                    <button class="btn btn-primary kinetic-glow">Shop Now</button>
-                    <button class="btn btn-secondary-outline">Follow Us</button>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container footer-inner">
-            <div class="footer-brand">KINETIC DEPTH</div>
-            <div class="footer-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Shipping</a>
-                <a href="#">Contact</a>
-            </div>
-            <p class="copyright">© 2024 KINETIC DEPTH. ALL RIGHTS RESERVED.</p>
+        <div class="hero-media">
+          <div class="hero-glow"></div>
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSfxe7wYD2PpxNTt6pMS01icYbNCxpHK8TI2tGXZkJjWEpyZlDCEE5T5pb-nuC20Xbw289hffR6pdjA2Lhv7SLzdQjCsISvzQzmK6pcJlmdPckySMxi9ca9qGnXkbLR8KSLmGKJ8G5a7W6Jm7bLa7yccD38U-xULuk7ERi2HagqfoF3Z9DLd1-UJbEZhl7B4vD9VAPhRW5nNRup55kCcsx1sWMV0T0yjUgB63bZY6q8gn5qmjNfiyNRQKCTmOPxO52KCGyigTIqlA"
+            alt="Professional Studio Microphone">
         </div>
-    </footer>
+      </div>
+      <div class="hero-wave" aria-hidden="true">
+        <svg viewBox="0 0 1440 320">
+          <path d="M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,149.3C672,149,768,203,864,208C960,213,1056,171,1152,144C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <div class="section-head">
+          <h2>Mastering Clarity</h2>
+          <div class="rule"></div>
+        </div>
+
+        <div class="feature-grid">
+          <article class="card card-lg card-soft">
+            <div>
+              <span class="material-symbols-outlined card-icon gold">graphic_eq</span>
+              <h3>Hyper-Linear Response</h3>
+              <p>
+                Our proprietary gold-sputtered diaphragm captures frequencies from 10Hz to 40kHz with
+                zero coloration, ensuring your recording sounds exactly like the source.
+              </p>
+            </div>
+            <div class="card-foot">
+              <div class="equalizer">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <span class="meta">Acoustic Specs 01-A</span>
+            </div>
+          </article>
+
+          <article class="card card-mid card-dark">
+            <span class="material-symbols-outlined card-icon">shield</span>
+            <h3>Zero Floor Noise</h3>
+            <p>
+              Internal shock mounting and brushed metal casing isolate the capsule from any mechanical
+              vibrations.
+            </p>
+          </article>
+
+          <article class="card card-mid card-glass">
+            <span class="material-symbols-outlined card-icon gold">design_services</span>
+            <h3>Brutal Precision</h3>
+            <p>
+              Designed in collaboration with world-class engineers. Built to survive generations of studio sessions.
+            </p>
+            <ul>
+              <li>Aerospace Grade Steel</li>
+              <li>Hand-Assembled in EU</li>
+            </ul>
+          </article>
+
+          <article class="card card-lg card-image">
+            <div class="overlay-copy">
+              <h3>Professional <br>Versatility</h3>
+              <p>Switchable polar patterns for vocals, instruments, and room ambiance.</p>
+              <div class="mode-icons">
+                <span class="material-symbols-outlined">radio_button_checked</span>
+                <span class="material-symbols-outlined faded">all_out</span>
+                <span class="material-symbols-outlined faded">exposure</span>
+              </div>
+            </div>
+            <img
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtFAyqxBUT58vNTKqWHVat9fwoEodPwNfaw5GJh6GA84EW5432p6vxJDuyIRvxke3tG4Wn2NZDbFFUb1xlgy2TxSK4zWcxbEB-NLFeHQUmN2su8U4T9n2aX3oMHnoh9i98wXW6TdCkXvhiHx5ulWu7RxftXKXpn3vgiRWMR4Al1mv5S8kr7UDwzZVBZdjeWVKH5UBm6qVlLPwvXp5zk5ESNU1PtvWt2CrBG1SAb1oTNrvP9fzXjC-GWvMkHS11nyplv3QAlX2CjKI"
+              alt="Microphone Detail">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="container">
+        <div class="products-head">
+          <h2>The Monolith Series</h2>
+          <p>Three distinct voices. One uncompromising standard of excellence.</p>
+        </div>
+
+        <div class="product-row">
+          <div class="product-image-wrap">
+            <img
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSfxe7wYD2PpxNTt6pMS01icYbNCxpHK8TI2tGXZkJjWEpyZlDCEE5T5pb-nuC20Xbw289hffR6pdjA2Lhv7SLzdQjCsISvzQzmK6pcJlmdPckySMxi9ca9qGnXkbLR8KSLmGKJ8G5a7W6Jm7bLa7yccD38U-xULuk7ERi2HagqfoF3Z9DLd1-UJbEZhl7B4vD9VAPhRW5nNRup55kCcsx1sWMV0T0yjUgB63bZY6q8gn5qmjNfiyNRQKCTmOPxO52KCGyigTIqlA"
+              alt="Model M-01">
+          </div>
+          <div class="product-copy">
+            <div class="product-tags">
+              <span class="tag tag-gold">Flagship</span>
+              <span class="sku">SKU: MONO-01</span>
+            </div>
+            <h3>M-01 Signature</h3>
+            <p>
+              The definitive studio condenser. Features a multi-pattern 1-inch capsule that delivers legendary
+              warmth and unmatched high-end presence. Ideal for leading vocals and acoustic guitars.
+            </p>
+            <div class="spec-grid">
+              <div>
+                <small>Max SPL</small>
+                <strong>144 dB</strong>
+              </div>
+              <div>
+                <small>Self-Noise</small>
+                <strong>4 dB-A</strong>
+              </div>
+            </div>
+            <button class="btn btn-gold full">Pre-order $2,499</button>
+          </div>
+        </div>
+
+        <div class="product-row reverse">
+          <div class="product-image-wrap">
+            <img
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1NU0GDWUlp8etcqHTpU_Z9DnfRe0uw9zhR4n5Y1ygNUCXKBBUF4AwHSNpHJIn5TJIKmIA1Q3yMHX5NC4mr8vBJ70uQpUOlKWw-2S5rwwjOJSnVNdA7c9-BccCpQDD_HqPOHPrvvoN6IhcKqEYqrbFJWnNBw28Tl-A2mM1VJPzGrJRyr0ECV--_qONrTqsWaKyrMH3MopCJU3irPuAiMzbW5zHVSB6n4DAmFUyLgxRWIJU_pP3enl2UUskWHL7RkdPWbwddSpj5nM"
+              alt="Model M-02">
+          </div>
+          <div class="product-copy">
+            <div class="product-tags">
+              <span class="tag tag-gray">Broadcast</span>
+              <span class="sku">SKU: MONO-02</span>
+            </div>
+            <h3>M-02 Broadcast</h3>
+            <p>
+              Optimized for the human voice. A dynamic powerhouse that rejects room noise while maintaining
+              a rich, deep proximity effect for that classic radio sound.
+            </p>
+            <div class="spec-grid">
+              <div>
+                <small>Response</small>
+                <strong>Flat/Tight</strong>
+              </div>
+              <div>
+                <small>Connectivity</small>
+                <strong>XLR-Pro</strong>
+              </div>
+            </div>
+            <button class="btn btn-outline full">Shop Now $899</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonial-head">
+          <h2>Voices of the Industry</h2>
+          <p>The professionals who trust Sonic Monolith with their sound every single day.</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="quote quote-gold">
+            <span class="material-symbols-outlined fill">format_quote</span>
+            <p>
+              The M-01 has a way of capturing the soul of a vocal performance that I have only ever heard in
+              vintage tube mics from the 60s. It is an instant classic.
+            </p>
+            <div class="author">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVFCFR_WzoC1TJC_k6Wm6nL7bLuDBJVrHXCYTKMjxK0ENvgNEU3RF-URrdE7_YYKIqkncal2m0UeQBtWh9cEejVI0nqjrY97E9u8n9P-oM3M-XUulASayNOv4LeOJ1u8_wMyyyrY4_dHouTk0RJrABdit90fVhd5Yp2Eh5jV1vdQLsedhjIr-ip1Lq5wKDElbY3IiELNJoYviYiYVqsFSbkVaqHfj97wP8HjT8PQPlpplo9jGvvH1EzyZjYHA9PB-na9TwdB5uKw4" alt="Sarah Chen">
+              <div>
+                <strong>Sarah Chen</strong>
+                <small>Platinum Producer • Abbey Road</small>
+              </div>
+            </div>
+          </article>
+
+          <article class="quote quote-gray">
+            <span class="material-symbols-outlined fill">format_quote</span>
+            <p>
+              In a world of digital sterile sound, the Monolith series brings back the weight and character we have
+              been missing. It is the first thing I reach for.
+            </p>
+            <div class="author">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5gsIo1kJbsF07oOl79PcP85aKHv1LZqgXBmD85T9BlTdjet9RWxaZd4qVtx2fSPtAzKq-Wx0pGKKKGdWa-IXplEVCb0cJtgNotrwTYOYHlDLSoF37Cc7c1XlI8bIVHJgYdgl3QTcPa22rEpohx_SMIJvmDYvPnUcO1BxE0g-7M8UZLl46TDYWAqUdXF-sGy2le2xRg2boGdFiEGciOQMKmaVf0TmcslaIPLRmT7NHWpobvIgHyms2PNVMeTu7ugGKxCs4PhRonDI" alt="Marcus Vane">
+              <div>
+                <strong>Marcus Vane</strong>
+                <small>Grammy Winner • Engine Earz</small>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="watermark" aria-hidden="true">AUDIO</div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <h2>Ready to Upgrade Your Signal Chain?</h2>
+        <div class="cta-actions">
+          <button class="btn btn-gold cta-btn">Shop All Products</button>
+          <button class="btn btn-outline cta-btn">Book a Demo</button>
+        </div>
+        <p>Free Shipping Worldwide • 5-Year Warranty</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand footer-brand">Sonic Monolith</div>
+      <div class="footer-links">
+        <a href="#">Newsletter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <div class="copyright">© 2024 Sonic Monolith. Engineering Silence.</div>
+    </div>
+  </footer>
 </body>
 </html>
